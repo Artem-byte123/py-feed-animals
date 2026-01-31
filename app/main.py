@@ -30,7 +30,7 @@ class Dog(Animal):
         super().__init__(name, 7, is_hungry)
 
     def bring_slippers(self) -> None:
-        print("The slippers delivered!")
+        print("The slippers delivered!+++ перерестань кричати телепень")
 
 
 def feed_animals(animals: list[Animal]) -> int:
